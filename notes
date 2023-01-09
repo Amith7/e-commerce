@@ -1,0 +1,34 @@
+1 Create an Angular Project - ng new Create
+2 Run angular - ng s -o
+3 Add bootstrap
+4 lazy Loading- 
+ its a process of loading components ,modules etc
+  its improve application loading time
+   ->ng g m products --route products --module app.module
+5 Add router-outlet inside app.component.html
+6 Create components should lazy loaded in the product module
+  ->All-product - ng g c products/all-products
+  ->All-cart - ng g c products/all-cart
+  ->All-wish lists - ng g c products/all-wish lists
+7 set up path for each component
+-product.module file
+8 create page-not-found component
+  -ng g c page-not-found
+9 create header and footer
+  ng g c header
+  ng g c footer
+10 component designing
+
+11 Backend Integration
+
+12 Angular services 
+ng g s products/api
+
+13 import  HttpClientModule in product module
+
+14 Dependency Inject HttpClient
+    class in api.services
+  15 Integration
+  16 design of wishlist and cart
+  17 search concept 
+        ng g p products/pipes/filter
